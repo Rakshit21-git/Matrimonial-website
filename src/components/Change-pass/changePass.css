@@ -1,0 +1,16 @@
+.change_pass .bg_img {
+  background: 
+    url("../../../public/change_pass_bg.jpg");
+  background-position: center;
+  
+}
+
+.change_pass .color_rose {
+  color: rgb(244 63 94);
+}
+.change_pass .bg_rose {
+  background-color: rgb(244 63 94) !important;
+}
+
+
+

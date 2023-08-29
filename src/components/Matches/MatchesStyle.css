@@ -1,0 +1,222 @@
+.Matches .heading input {
+    border-radius: 21px;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+}
+
+.Matches .heading h1 {
+    text-align: center;
+}
+
+.Matches .LHS h2 {
+    text-align: center;
+}
+
+.Matches .heading ::placeholder {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.Matches .Apply_Filter_box {
+    height: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.625rem;
+}
+
+.Matches .INR {
+    margin-top: 2%;
+}
+
+.Matches .div1_Caste {
+    margin-top: 7%;
+    width: 100%;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    box-shadow: none;
+}
+
+.Matches .Dropdown-menu {
+    width: 100%;
+    background-color: wheat !important;
+    border-radius: 0.625rem;
+    border: 1px solid black;
+}
+
+.Matches .ApplyFilterBtn {
+    /* border: none; */
+    color: whitesmoke;
+    background-color: #ff607bf5;
+    margin: 60px 50px 40px 50px;
+    padding: 15px 1px !important;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.Matches .RHS {
+    margin-left: 3%;
+    padding-top: 12%;
+}
+
+.Matches .RHS img {
+    border-radius: 10px;
+    width: 95%;
+}
+
+.Matches .Send_Interest button {
+    color: white;
+    background: radial-gradient(#f78770be, #ff607bba);
+    border: none;
+    padding: 4% 12% 3% 12%;
+    border-radius: 10px;
+    font-size: 27px;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+
+.Matches .icons i {
+    color: #ff607bf5;
+    padding: 7% 10% 7% 11%;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    font-size: 27px;
+    border-radius: 8px;
+}
+
+@media (min-width:1025px) and (max-width:1440px) {
+    .Matches .RHS img {
+        width: 95%;
+    }
+
+    .Matches .Send_Interest button {
+        padding: 4% 12% 3% 12%;
+    }
+
+    .Matches .icons i {
+        padding: 5% 8% 5% 9%;
+    }
+
+    .Matches .ApplyFilterBtn {
+        /* padding: 2% 0 3% 0; */
+        width: 65%;
+        margin-left: 18%;
+    }
+    .Matches .heading .Search_here{
+        margin-left: 65px!important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .Matches .RHS img {
+        width: 95% !important;
+    }
+    .Matches .Search_here{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .Matches .icons i {
+        padding: 7% 10% 7% 11%;
+    }
+
+    .Matches .RHS img {
+        width: 40%;
+        margin-bottom: 4%;
+    }
+
+    .Matches .Send_Interest button {
+        padding: 2% 8% 2% 8%;
+    }
+
+    .Matches .ApplyFilterBtn {
+        padding: 2% 0;
+        width: 65%;
+        margin-left: 18%;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+
+    .Matches .RHS img {
+        width: 40%;
+        margin-bottom: 4%;
+    }
+
+    .Matches .Apply_Filter_box {
+        padding: 8px;
+        margin-left: 8px;
+    }
+
+    .Matches .ApplyFilterBtn {
+        width: 50%;
+        padding: 2%;
+        margin-left: 26%;
+    }
+
+    .Matches .icons i {
+        padding: 7% 9% 7% 9%;
+    }
+
+    .Matches .Send_Interest button {
+        padding: 6% 12% 6% 12%;
+        font-size: 18px;
+    }
+
+    .Matches .Name {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width:425px) and (max-width:575px) {
+    .Matches .icons i {
+        padding: 7% 9% 7% 9%;
+    }
+
+    .Matches .Send_Interest button {
+        font-size: 80%;
+        margin: 0;
+        margin-left: 12%;
+        padding: 8% 8% 8% 8%;
+        border-radius: 8px;
+    }
+
+    .Matches .Apply_Filter_box {
+        margin: 11px 0 0 5px;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .Matches .Search_here {
+        margin: 0 !important;
+        /* width: 19.4rem!important; */
+        /* margin-left: 10px; */
+    }
+
+    .Matches .Apply_Filter_box {
+        margin: 11px 0 0 5px;
+    }
+
+    .Matches .RHS img {
+        width: 40%;
+        margin-bottom: 4%;
+    }
+
+    .Matches .Send_Interest button {
+        font-size: 80%;
+        /* margin-left: 15%; */
+        margin: 0;
+        padding: 8% 8% 8% 8%;
+        border-radius: 8px;
+    }
+
+    .Matches .icons i {
+        padding: 6%;
+    }
+
+}
+
+.Matches #showError {
+    color: red;
+    margin-left: 35%;
+}

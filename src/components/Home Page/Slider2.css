@@ -1,0 +1,28 @@
+.slider .slider-card{
+    width: 400px;
+    height: 400px;
+}
+.slider .card{
+    box-shadow: none !important;
+    border: none;
+}
+.slider .card .btn{
+    margin: 0px;
+    background-color: #FF607B;
+    box-shadow: none;
+    color: white;
+    width: 177px;
+    border-radius: 10px;
+}
+.slider .card-head{
+    margin-bottom:0px !important;
+}
+.react-multi-carousel-item{
+    display: flex;
+    justify-content: center;
+}
+.slider .card_image{
+    object-fit: contain !important;
+    width: 17rem !important;
+    height: 15rem;
+}

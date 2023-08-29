@@ -1,0 +1,61 @@
+.bg-color {
+  /* background: radial-gradient(top right#F78770, #FF607B); */
+  background: linear-gradient(to left, #F78770 0%, #FF607B 100%)!important;
+  width: 100%;
+  height: 100%;
+  background-color: black ;
+}
+.navbar .login-btn {
+  background-color: #ff607bf5 !important;
+  border: none !important;
+  border-radius: 12px !important;
+  width: 100px !important;
+  height: 40px !important; 
+  color: white !important;
+}
+ 
+.navbar .register-btn {
+  color: white !important;
+  background-color:#ff607bf5 !important;
+  border: none !important;
+  border-radius: 12px !important;
+  width: 100px !important;
+  height: 40px !important;
+}
+.navbar .no-wrap {
+  white-space: nowrap !important;
+}
+.navbar .nav-itemss{
+    color: white !important;
+}
+@media (max-width: 992px) {
+    
+  .navbar .bg-color {
+    background: radial-gradient(#f78770be, #ff607bba);
+    width: 100%;
+    height: 100% !important;
+    /* margin: 0; */
+  }
+  .navbar .nav-itemss{
+    padding: 15px !important;
+    /* padding-bottom: 20px !important; */
+    color: navy !important;
+  }
+  .navbar .collapse-m{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .navbar .login-btn{
+    margin-left: 1rem;
+  }
+  .navbar .heart_img{
+    width: 90px !important;
+    height: 90px !important;
+  }
+}
+@media (max-width: 767px){
+  .navbar .heart_img{
+    width: 70px !important;
+    height: 70px !important;
+  }
+}

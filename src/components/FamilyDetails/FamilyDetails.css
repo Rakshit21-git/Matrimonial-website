@@ -1,0 +1,37 @@
+.FamilyDetails{
+    background-image: url("../../../public/change_pass_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* height: 400vh; */
+}
+.FamilyDetails .row{
+    display: flex;
+    justify-content: center;
+}
+.FamilyDetails input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+.FamilyDetails .form-control::placeholder{
+    color: white;
+}
+.FamilyDetails .form-select{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    color: white;
+}
+.FamilyDetails .SaveBtn{
+    padding: 16px 0;
+    background-color: #ff607bf5;
+    color: white;
+    font-size: 28px;
+    border: none;
+    border-radius: 11px;
+
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutUs2 .sideimage{
+    max-width: 70%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    /* padding: 15%; */
+}
+@media screen and (max-width:400px) {
+    .aboutUs2 .sideimage{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 75%;
+    }
+    .aboutUs2 .form-fields{
+        margin-top: -30%;
+        object-fit: cover;
+      }
+      .aboutUs2 .form-fields .text2{
+        margin-bottom: -10%;
+      }
+      .aboutUs2 .background{
+        width: 100%;
+        margin: auto;
+        
+      }
+}
+
+.aboutUs2 .form-fields{
+    margin-bottom: 1% ;
+}
+
+.aboutUs2 .form-fields .text{
+    margin-top: 6%;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.aboutUs2 .form-fields .text2{
+    line-height: 1.4rem;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 0%;
+}
+.aboutUs2 .input-field{
+    margin: auto;
+    padding: 0;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+.aboutUs2 .form-Data{
+    padding-top: 25px;
+    margin: auto;
+    border-color: rgba(0, 0, 0, 0.22);
+}
+.aboutUs2 .form-control{
+    position: relative;
+    /* margin-bottom: 25px; */
+    /* padding: 1%; */
+}
+.form-Data input , .form-Data textarea{
+    width: 95%;
+}
+.aboutUs2 .btn-submit{
+    background: #ff607b!important;
+    border-radius: 4%;
+    color: #ffff;
+    font-weight: 600;
+    /* margin-bottom: 1.4rem; */
+}
+
+.aboutUs2 .background{
+    height: 80%!important;
+    width: 100%!important;
+    margin-top: auto;
+    background: radial-gradient(#f78770be, #ff607bba);
+}
+
+.aboutUs2 .input-field p{
+    margin: 0;
+    
+}
+
+.aboutUs2 .iconcolor{
+    color: white;
+    /* margin-left: 24%; */
+    margin: 6% 0 6% 24%;
+}
+.aboutUs2 .center i{
+    margin-left: 15%;
+    margin-bottom: 5%;
+
+}

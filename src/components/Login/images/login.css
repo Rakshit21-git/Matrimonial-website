@@ -1,0 +1,56 @@
+.group-img{
+    width: 450px ;
+     height: 430px;  
+}
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.forgot{
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    background-color: #ff607bf5 !important;
+    color: aliceblue !important;
+}
+.div1{
+    width: 100px;
+    height: 1px;
+    background-color: grey;
+}
+.sign{
+    text-decoration: none;
+    color: black;
+}
+.pink-img{
+    margin-left: 11rem;
+}
+.group-img{
+    width: 450px ;
+     height: 430px;  
+}
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.forgot{
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    background-color: #FF607B;
+    color: aliceblue;
+}
+.div1{
+    width: 100px;
+    height: 1px;
+    background-color: grey;
+}
+.sign{
+    text-decoration: none;
+    color: black;
+}
+.pink-img{
+    margin-left: 11rem;
+}

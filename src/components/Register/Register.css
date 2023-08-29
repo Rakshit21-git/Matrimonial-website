@@ -1,0 +1,48 @@
+.register_container{
+    background-image: url("../../images/register_img.png");
+   background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center;
+    /* background; */
+    
+    
+}
+.register_input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.register_input::placeholder{
+    color: white;
+}
+.register_input:focus{
+    box-shadow: none!important;
+    border: none!important;
+    outline: 0;
+    border-bottom: 1px solid white!important;
+
+}
+.row3{
+    margin-left: 50px;
+}
+
+.register_btn{
+    background-color: #fe637a!important;
+    border: none!important;
+    
+}
+.register_profile_btns{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.callender input::-webkit-calendar-picker-indicator {
+    color: white;
+}
+.register_span{
+    cursor: pointer;
+}

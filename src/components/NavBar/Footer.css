@@ -1,0 +1,19 @@
+.bg-img{
+    background-image: url("../images/Rectangle\ 41.png");
+    /* width: 100vw; */
+    height: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-color{
+    color: white !important;
+}
+.t-deco{
+    text-decoration: none !important;
+}
+.contact_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+}

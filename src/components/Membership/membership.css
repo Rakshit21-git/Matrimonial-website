@@ -1,0 +1,54 @@
+.membership_col1{
+    background: linear-gradient(270deg,#f78770,#ff607b);
+    text-align: center;
+    height: 180px;
+    
+}
+.membership_col1 span{
+    font-size: 18px;
+    
+    color: rgb(58, 57, 57);
+}
+.membership_col2{
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.membership_btn{
+    background-color: #fa2c4e!important;
+    border: none!important;
+    font-size: 20px!important;
+   text-transform: none;
+   
+}
+#membership_h4_3{
+    margin-top: 0;
+    text-decoration: line-through!important;
+}
+.membership_col1 h4{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #b32f45;
+}
+.membership_main_col{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0!important;
+}
+.membership_head h2{
+    color: #fa2c4e;
+    
+}
+.membership_head span{
+    color: rgb(53, 52, 52);
+}
+.membership_col2 ul li{
+    color: gray;
+}
+.membership_row{
+    --bs-gutter-x: -0.5rem!important;
+}
+#price{
+    font-size: 30px!important;
+}
